@@ -12,3 +12,9 @@ other data will be open source including the tiles and the model so feel free to
 
 # Traffic road data 
 Using TOMTOM API to get traffic dataset, of the speed and time flow within each road in real time, joining those roads geometricly with OSM data roads to get number of lanes, length in meters and the type of the road (residential, primary...) to infere the width of the road using Moroccan Normalized road rules.
+You can check the full python script of tomtom traffic matched with road charcteristics and visualize the resulting data into QGIS as an interactive MAP, you may need an API of tomtom traffic.
+
+
+# Data Collection
+
+To collect data, using QGIS to get raster tails as TIF with geospatial data, taking the OSM presentation of that tail or area of interest to extract bounding box of buildings, those will be annotated after as Villas or Apartments or others, that way will make it easier and accurate to label satellite images without the need of manual polygonizing each building.
