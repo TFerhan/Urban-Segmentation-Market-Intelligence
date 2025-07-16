@@ -1,20 +1,68 @@
-# Urban-Segmentation-Market-Intelligence
+# Retail Site Selection Project
 
-This Project consist of using satellite imagery, and other geospatial and socio-demographic data to help in the decision of store placement within Group LabelVie (Carrefour) but its potential cover any other Real Estate Insights in terms of business value one should take it on consideration.
+## Overview
 
-Gathering and labeling the data is the most hard part in terms of time and also in quality, using QGIS Software to get tiles and then GDAL to form 512x512 raster from that tile of a resolution of 0.3 (Zoom 19).
+This project aims to optimize the selection of new store locations for a major retail chain in Morocco by leveraging diverse data sources and advanced spatial data analysis techniques. The goal is to identify the best areas for store implantation based on socio-demographic, urban, and competitive factors, using machine learning and geographic information systems (GIS).
 
-Saving those tiles in a format of JPEG of 90% quality, as this format keep quality and in same time small size , at the opposite of TIFF images which take very large memory. 
+## Data Sources
 
-All files including the pre-processing in QGIS and in python will be included in this Repo, some scripts that add layers in QGIS about some road traffic or telecommunication data require a key API, but all the 
+The project integrates multiple heterogeneous data sources, including:  
+- Public socio-economic datasets from the Moroccan High Commission for Planning (HCP) and data.gov.ma  
+- Real estate data scraped from online platforms (prices per square meter by neighborhood)  
+- Geospatial data from OpenStreetMap, Google Maps API, OpenCelliD, and OpenRouteService  
+- Traffic and mobility data via APIs from TomTom, Waze, and Google Maps  
+- Competitor store locations obtained via web scraping from major retailers in the area  
+- Internally inferred data such as building typologies and urban segmentation created by data processing and labeling
 
-other data will be open source including the tiles and the model so feel free to use it in any function.
+## Project Structure
 
-# Traffic road data 
-Using TOMTOM API to get traffic dataset, of the speed and time flow within each road in real time, joining those roads geometricly with OSM data roads to get number of lanes, length in meters and the type of the road (residential, primary...) to infere the width of the road using Moroccan Normalized road rules.
-You can check the full python script of tomtom traffic matched with road charcteristics and visualize the resulting data into QGIS as an interactive MAP, you may need an API of tomtom traffic.
+retail-site-selection/
+│
+├── data/
+│ ├── raw/ # Raw collected data files (CSV, JSON, XML)
+│ ├── processed/ # Cleaned and integrated datasets
+│
+├── notebooks/ # Jupyter notebooks for exploratory data analysis and feature engineering
+│
+├── scripts/ # Python scripts for data collection, scraping, cleaning, and merging
+│
+├── powerbi/ # Power BI dashboard files and screenshots
+│
+├── qgis/ # QGIS projects and geospatial shapefiles/GeoJSON
+│
+└── README.md # Project documentation (this file)
 
 
-# Data Collection
+## Tools & Technologies
 
-To collect data, using QGIS to get raster tails as TIF with geospatial data, taking the OSM presentation of that tail or area of interest to extract bounding box of buildings, those will be annotated after as Villas or Apartments or others, that way will make it easier and accurate to label satellite images without the need of manual polygonizing each building.
+- Python (BeautifulSoup, Requests, Selenium, Pandas, OSMnx)  
+- GIS Software (QGIS)  
+- APIs (Google Maps, OpenCelliD, OpenRouteService, TomTom Traffic, Waze)  
+- Power BI for interactive dashboards and visualizations
+
+## Current Status
+
+- Data collection and preprocessing are ongoing, with several datasets already collected and integrated.  
+- Building type classification data is being labeled and prepared for machine learning model training.  
+- Power BI dashboards have been created for initial exploratory analysis.  
+- Further work will focus on model development, evaluation, and deployment.
+
+## How to Use
+
+1. Clone the repository  
+2. Explore raw data under `data/raw`  
+3. Run scripts in the `scripts` folder to reproduce data preprocessing  
+4. Open notebooks for analysis and feature engineering  
+5. View Power BI dashboards in the `powerbi` folder  
+6. Use QGIS projects for detailed geospatial analysis  
+
+## Contact
+
+For questions or collaboration, please contact:  
+**Taha FERHAN**  
+Email: taha.ferhan@hotmail.com
+GitHub: https://github.com/TFerhan
+
+---
+
+Thank you for your interest!
