@@ -61,7 +61,7 @@ retail-site-selection/
 For questions or collaboration, please contact:  
 **Taha FERHAN**  
 Email: taha.ferhan@hotmail.com
-GitHub: https://github.com/TFerhan
+HuggingFace: https://huggingface.co/tferhan
 
 ---
 
