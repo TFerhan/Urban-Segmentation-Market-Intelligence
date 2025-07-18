@@ -14,25 +14,6 @@ The project integrates multiple heterogeneous data sources, including:
 - Competitor store locations obtained via web scraping from major retailers in the area  
 - Internally inferred data such as building typologies and urban segmentation created by data processing and labeling
 
-## Project Structure
-
-retail-site-selection/
-│
-├── data/
-│ ├── raw/ # Raw collected data files (CSV, JSON, XML)
-│ ├── processed/ # Cleaned and integrated datasets
-│
-├── notebooks/ # Jupyter notebooks for exploratory data analysis and feature engineering
-│
-├── scripts/ # Python scripts for data collection, scraping, cleaning, and merging
-│
-├── powerbi/ # Power BI dashboard files and screenshots
-│
-├── qgis/ # QGIS projects and geospatial shapefiles/GeoJSON
-│
-└── README.md # Project documentation (this file)
-
-
 ## Tools & Technologies
 
 - Python (BeautifulSoup, Requests, Selenium, Pandas, OSMnx)  
