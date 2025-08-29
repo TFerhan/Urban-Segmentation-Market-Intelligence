@@ -1,0 +1,342 @@
+[
+  {
+    "epoch": 12,
+    "train_loss": 18.36098453420154,
+    "val_loss": 17.977107776431588,
+    "mean_iou": 0.8947720918325587,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8397799252346329,
+      "house": 0.9500623186597326,
+      "residential": 0.9199890746645795,
+      "apartments": 0.86925704877129
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9348881323960923,
+      "house": 0.9774181748922504,
+      "residential": 0.9542951144371523,
+      "apartments": 0.9223266786646229
+    }
+  },
+  {
+    "epoch": 13,
+    "train_loss": 18.047875003290365,
+    "val_loss": 18.482218229864525,
+    "mean_iou": 0.8856060475641516,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8335118464694041,
+      "house": 0.9411908337604308,
+      "residential": 0.9151932367640555,
+      "apartments": 0.8525282732627162
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9279442313928074,
+      "house": 0.9566099113505249,
+      "residential": 0.9618872651784999,
+      "apartments": 0.9093584166661371
+    }
+  },
+  {
+    "epoch": 14,
+    "train_loss": 17.992486174525123,
+    "val_loss": 18.711187291333054,
+    "mean_iou": 0.8496475675584926,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8434018878205666,
+      "house": 0.951948341555316,
+      "residential": 0.8622697889133398,
+      "apartments": 0.7409702519447477
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9351582467737984,
+      "house": 0.9818523311877629,
+      "residential": 0.9652131956908834,
+      "apartments": 0.7832604275642508
+    }
+  },
+  {
+    "epoch": 15,
+    "train_loss": 17.413213836605966,
+    "val_loss": 17.860296110468585,
+    "mean_iou": 0.8717085899867636,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.7890665428294933,
+      "house": 0.9342193434195051,
+      "residential": 0.9183725523488359,
+      "apartments": 0.8451759213492201
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9352875829319588,
+      "house": 0.9640855886050562,
+      "residential": 0.9483340378328333,
+      "apartments": 0.9013270598433344
+    }
+  },
+  {
+    "epoch": 16,
+    "train_loss": 17.1645554313528,
+    "val_loss": 17.929453149555236,
+    "mean_iou": 0.8774027249141141,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.7896859841040293,
+      "house": 0.9414693464627776,
+      "residential": 0.9136182309703493,
+      "apartments": 0.8648373381193
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.8539743693738516,
+      "house": 0.9673488678549411,
+      "residential": 0.948877325827151,
+      "apartments": 0.9536418184604882
+    }
+  },
+  {
+    "epoch": 17,
+    "train_loss": 17.13107045338704,
+    "val_loss": 17.71575578929871,
+    "mean_iou": 0.8882784452676983,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8288423924161338,
+      "house": 0.9446100930893211,
+      "residential": 0.9228495701205877,
+      "apartments": 0.8568117254447506
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9114576511940711,
+      "house": 0.9748164689349949,
+      "residential": 0.9684033753902213,
+      "apartments": 0.9057661385131703
+    }
+  },
+  {
+    "epoch": 18,
+    "train_loss": 16.716341928852614,
+    "val_loss": 18.233336908610788,
+    "mean_iou": 0.8978369287585215,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8296599339835031,
+      "house": 0.9434900192339788,
+      "residential": 0.9409453433767954,
+      "apartments": 0.8772524184398087
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9180969073129688,
+      "house": 0.9796779894632843,
+      "residential": 0.9611450136170808,
+      "apartments": 0.9354302219463939
+    }
+  },
+  {
+    "epoch": 19,
+    "train_loss": 16.653001524757823,
+    "val_loss": 17.960166964943955,
+    "mean_iou": 0.896462835082167,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8515366347877124,
+      "house": 0.944100520345815,
+      "residential": 0.9225841010498244,
+      "apartments": 0.8676300841453163
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9186706449624383,
+      "house": 0.9628970449277586,
+      "residential": 0.9511654424415841,
+      "apartments": 0.9473976609478371
+    }
+  },
+  {
+    "epoch": 20,
+    "train_loss": 16.46876859006562,
+    "val_loss": 18.518781797153743,
+    "mean_iou": 0.8570504385495306,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8156477384886226,
+      "house": 0.8641022203847499,
+      "residential": 0.897382849646623,
+      "apartments": 0.8510689456781269
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.8928812602122952,
+      "house": 0.8763433370214531,
+      "residential": 0.9496585158755843,
+      "apartments": 0.9492771660380647
+    }
+  },
+  {
+    "epoch": 21,
+    "train_loss": 16.330289842109003,
+    "val_loss": 18.729804099075437,
+    "mean_iou": 0.8830948583032014,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8073537521098775,
+      "house": 0.9506783288689786,
+      "residential": 0.9275749563126405,
+      "apartments": 0.8467723959213094
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.8444946215160201,
+      "house": 0.9734844049070837,
+      "residential": 0.9518540912960166,
+      "apartments": 0.9594808860794806
+    }
+  },
+  {
+    "epoch": 22,
+    "train_loss": 15.68015726618983,
+    "val_loss": 18.591468764102366,
+    "mean_iou": 0.8793332590934677,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8340702731893744,
+      "house": 0.922060670903117,
+      "residential": 0.9129775531884287,
+      "apartments": 0.8482245390929508
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.8826530789463415,
+      "house": 0.9442664881832107,
+      "residential": 0.9577963749194002,
+      "apartments": 0.9366943910721246
+    }
+  },
+  {
+    "epoch": 23,
+    "train_loss": 15.817469602505836,
+    "val_loss": 18.601499865374226,
+    "mean_iou": 0.8852360556386748,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8320189259929759,
+      "house": 0.926603283200098,
+      "residential": 0.9200053541540782,
+      "apartments": 0.8623166592075471
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9234591476522422,
+      "house": 0.9465093091371146,
+      "residential": 0.9648463054494377,
+      "apartments": 0.9178949241406973
+    }
+  },
+  {
+    "epoch": 24,
+    "train_loss": 15.589359868913007,
+    "val_loss": 18.678176059497623,
+    "mean_iou": 0.8749617338755185,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.7970820949259306,
+      "house": 0.9288316231145173,
+      "residential": 0.9178478396602263,
+      "apartments": 0.8560853778013998
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.8384252209186218,
+      "house": 0.9566237081485909,
+      "residential": 0.9714232081070642,
+      "apartments": 0.9323174599344984
+    }
+  },
+  {
+    "epoch": 25,
+    "train_loss": 15.368720490786686,
+    "val_loss": 19.76773727597214,
+    "mean_iou": 0.8818284351105884,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8494532994584861,
+      "house": 0.9263053423798281,
+      "residential": 0.9045381903692372,
+      "apartments": 0.847016908234802
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9018285435706547,
+      "house": 0.9546224994144773,
+      "residential": 0.9763350099424836,
+      "apartments": 0.8916920381902509
+    }
+  },
+  {
+    "epoch": 26,
+    "train_loss": 15.162251249808062,
+    "val_loss": 18.6960183091051,
+    "mean_iou": 0.8789037786283761,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8312314864412137,
+      "house": 0.9347615517408834,
+      "residential": 0.9122505138554727,
+      "apartments": 0.8373715624759348
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.8973103595810816,
+      "house": 0.9618934119952728,
+      "residential": 0.9640599188570337,
+      "apartments": 0.9053307826636173
+    }
+  },
+  {
+    "epoch": 27,
+    "train_loss": 14.946540707902326,
+    "val_loss": 18.790330447549895,
+    "mean_iou": 0.8829737276628999,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8429956986951184,
+      "house": 0.9217069053170932,
+      "residential": 0.9124221403285533,
+      "apartments": 0.8547701663108346
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9034008053985281,
+      "house": 0.947459269160051,
+      "residential": 0.9483916269297152,
+      "apartments": 0.9435141402869062
+    }
+  },
+  {
+    "epoch": 28,
+    "train_loss": 14.768531260898069,
+    "val_loss": 18.923109148431013,
+    "mean_iou": 0.8809297742583788,
+    "per_category_iou": {
+      "background": NaN,
+      "other": 0.8282895230942546,
+      "house": 0.9252002411713873,
+      "residential": 0.9127755195205565,
+      "apartments": 0.8574538132473173
+    },
+    "per_category_accuracy": {
+      "background": NaN,
+      "other": 0.9013626882142477,
+      "house": 0.9689758805049224,
+      "residential": 0.9604684663034021,
+      "apartments": 0.9120938774556219
+    }
+  }
+]
