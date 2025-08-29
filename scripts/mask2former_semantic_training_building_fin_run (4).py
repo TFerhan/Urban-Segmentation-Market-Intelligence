@@ -21,9 +21,9 @@ from torch.utils.data import DataLoader
 
 login(os.getenv("HF_TOKEN"))
 
-dataset = load_dataset("tferhan/morocco_satellite_buildings_semantic_segmentation_512_v2", download_mode="force_redownload")
+dataset = load_dataset("contact_me", download_mode="force_redownload")
 
-hf_hub_download(repo_id="tferhan/mask2former_semantic_ma", filename="mask2former_semantic_ma_epoch_7.pth", repo_type="model", local_dir=".")
+hf_hub_download(repo_id="contact_me", filename="mask2former_semantic_ma_epoch_7.pth", repo_type="model", local_dir=".")
 
 # shuffle + split dataset
 dataset = dataset.shuffle(seed=1)
@@ -244,7 +244,7 @@ for epoch in range(11, 50):
     upload_file(
         path_or_fileobj=log_file,
         path_in_repo=log_file,
-        repo_id="tferhan/mask2former_semantic_ma",
+        repo_id="contact_me",
         repo_type="model"
     )
 
@@ -274,7 +274,7 @@ for epoch in range(11, 50):
             optimizer.load_state_dict(best_state["optimizer_state_dict"])
             break
     if epoch % 10 == 0:
-      repo_id = "tferhan/mask2former_semantic_ma"
+      repo_id = "contact_me"
       upload_file(path_or_fileobj="best_model.pth", path_in_repo="best_model.pth", repo_id=repo_id, repo_type="model")
       upload_file(path_or_fileobj="./best_model_hf/model.safetensors", path_in_repo="model.safetensors", repo_id=repo_id, repo_type="model")
 
@@ -284,7 +284,7 @@ for epoch in range(11, 50):
 
 
 
-repo_id = "tferhan/mask2former_semantic_ma"
+repo_id = "contact_me"
 upload_file(path_or_fileobj="best_model.pth", path_in_repo="best_model.pth", repo_id=repo_id, repo_type="model")
 upload_file(path_or_fileobj="./best_model_hf/model.safetensors", path_in_repo="model.safetensors", repo_id=repo_id, repo_type="model")
 
